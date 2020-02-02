@@ -1,7 +1,7 @@
 # Segmentation SLIC and Region Merge
 
 ## Introduction
-Image segmentation is one of the most important steps for finding and recognizing objects. With segmentation, image is divided into pieces that do not overlap with each other and are meaningful in itself such as color, intensity, texture. Segmentation is the process of assigning a label to each pixel in the image. Pixels with similar characteristics are assigned the same label and are located within the same location. A region formed as a result of segmentation shows a different characteristic from the neighboring region.
+Image segmentation is one of the most important steps for finding and recognizing objects. With segmentation, image is divided into pieces that do not overlap with each other and meaningful in itself such as color, intensity, texture. Segmentation is the process of assigning a label to each pixel in the image. Pixels with similar characteristics are assigned the same label and are located within the same location. A region formed as a result of segmentation shows a different characteristic from the neighboring region.
 
 Superpixel is a group of pixels that share common characteristic. Superpixel carries more information than a pixel. Significant fragments are obtained with superpixels, such as region obtained in the segmentation process but objects can not be fully obtained. Superpixel is the result of an image oversegmentation.
 
@@ -35,7 +35,7 @@ The Rand Index (RI) was used for clustering evaluation. It shows similarity betw
 - b, The number of pixel pairs in S1 and S2 on different object
 
 <p align="center">
-	<img src="/Images_Readme/RI.JPG" alt="RI" width="200" height="200">
+	<img src="/Images_Readme/RI.JPG" alt="RI" width="160" height="160">
 </p>
 
 The probabilistic rand index (PRI) is the average of all RI values of an image segmented by different people.
