@@ -35,7 +35,7 @@ The Rand Index (RI) was used for clustering evaluation. It shows similarity betw
 - b, The number of pixel pairs in S1 and S2 on different object
 
 <p align="center">
-	<img src="/Images_Readme/RI.JPG" alt="RI" width="120" height="120">
+	<img src="/Images_Readme/RI.JPG" alt="RI" width="200" height="200">
 </p>
 
 The probabilistic rand index (PRI) is the average of all RI values of an image segmented by different people.
@@ -53,7 +53,7 @@ Two different methods were used for region merge process. In the first method, h
 
 ## Results
 <p align="center">
-	<img src="/Images_Readme/Experimental Result.JPG" alt="Experimental Result" width="400" height="120">
+	<img src="/Images_Readme/Experimental Result.JPG" alt="Experimental Result" width="500" height="500">
 </p>
 
 ## Conclusion
